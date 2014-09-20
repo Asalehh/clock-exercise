@@ -1,7 +1,7 @@
 <?php
 
 $time_now = (int) date("Gi"); # Time in 24h format with minutes with leading zero compined together to output numbers like 100 for 01:00 and 1220 for 12:20 i got the idea from StackOverflow 
-$time_now = 510;  // Manual set for testing.
+#$time_now = 510;  // Manual set for testing.
 
 $time_morning_start = 500;
 $time_morning_end = 1059;
